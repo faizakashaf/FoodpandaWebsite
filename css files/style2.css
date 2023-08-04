@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: SemiBold, sans-serif;
+    ;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #FF2B85;
+    --tertiary-color: #343B46;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    margin: 1rem;
+
+}
+
+img {
+    padding: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+.navbar ul li {
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+}
+
+.navbar ul li:first-child {
+    margin-left: auto;
+}
+
+.navbar ul li a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4rem;
+    padding: 1.2rem;
+    width: 100%;
+    height: 4rem;
+    margin-top: -1rem;
+}
+
+.search {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+li:last-child {
+    margin-right: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 5% auto; */
+    /* width: 83%; */
+    transition: top 0.3s;
+}
+
+.contact-img {
+    width: 100%;
+}
+
+.contact-img img {
+    width: 100%;
+    height: 45.5rem;
+    opacity: 1.5;
+}
+
+.contact {
+    position: absolute;
+    top: 30rem;
+    left: 10rem;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.inputs {
+    margin: 3% auto;
+    width: 83%;
+}
+
+input {
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 2.2rem;
+    width: 25%;
+    margin: 4% 3%;
+    outline: none;
+}
+
+#message {
+    border-radius: 30px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 80%;
+    height: 250px;
+    margin-top: 2%;
+    text-align: top;
+}
+
+#message::placeholder {
+    font-size: 1.7rem;
+    color: #999;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 5px;
+}
+
+.inputs button {
+    color: #ff2b85;
+    border: 2px solid #ff2b85;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+    height: 50px;
+    margin-top: 3%;
+    font-weight: 700;
+    font-size: 1.8rem;
+    background-color: white;
+}
+
+.content-width {
+    background-color: #f5f5f6;
+}
+
+.content {
+    margin: 0% 2%;
+    width: 83%;
+    color: rgb(79, 75, 75);
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: Regular, sans-serif;
+    line-height: 1.5;
+    padding: 5%;
+}
+
+.footer {
+    background-color: black;
+    padding: 5%;
+    height: 60vh
+    
+
+}
+
+.footer img {
+    padding: 0% 0% 5% 0%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.footer h3 {
+    color: white;
+    padding: 0% 0% 5% 0%;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.NandC {
+    display: flex;
+}
+
+.navigate {
+    margin-right: 150px;
+}
+.Follow-us {
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   right: 4rem;
+}
+.Follow-us .links li {
+   display: inline-block ;
+  padding: 0.5rem;
+}
+
+.copyrigth {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.copyrigth p {
+    font-size: 1.5rem;color: white;
+    
+}
+
+.copyrigth p a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}

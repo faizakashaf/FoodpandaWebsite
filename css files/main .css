@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: SemiBold, sans-serif;
+    ;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #FF2B85;
+    --tertiary-color: #343B46;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    margin: 1rem;
+
+}
+
+img {
+    padding: 1.2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+
+}
+
+.navbar ul li {
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+}
+
+.navbar ul li:first-child {
+    margin-left: auto;
+}
+
+.navbar ul li a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.location {
+    color: white;
+    background-color: var(--secondary-color);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4rem;
+    padding: 1.2rem;
+    width: 100%;
+    height: 4rem;
+    margin-top: -1rem;
+}
+
+.search {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+li:last-child {
+    margin-right: 2rem;
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about img{
+    margin-top: 0;
+    width: 100%;
+    height: 86vh;
+    position: relative;
+}
+.about h2{
+position: absolute;
+bottom: 10rem;
+left: 10rem;
+color: white;
+font-size: 6rem;
+}
+.para{
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.para h2{
+    color: #343B46;
+    font-size: 3rem;
+    text-align: justify;
+    margin-top: 2rem;
+}
+.para p{
+    text-align: justify;
+    font-family: Regular, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: #343B46;
+    padding-right: 60rem;
+}
+.values{
+    margin-top: 4rem;
+    color: #343B46;
+    font-family: Regular, sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+.btn{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 25px 10px 25px;
+    height: 5rem;
+    margin: 8px;
+    background-color: #fff;
+    
+}
+.btn button a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ff2b85;
+}
+.btn button a:hover{
+    color: #fff;
+    /* background-color: #FF2B85; */
+    border: none;
+}
+.btn button:hover { /* Add :active pseudo-class for the click effect */
+    color: white;
+    background-color: #FF2B85;
+    border: none;
+}
+.sidebar-1{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0 25px 2rem;
+}
+.para-1,  .para-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.para-1>h2 ,.para-2 >h2{
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #343B46;
+}
+.para-1>p ,.para-2 >p{
+    margin: 2rem;
+    padding: 3rem;
+    font-size: 1.8rem;
+    color: #343B46;
+
+}
+.sidebar-2{
+    display: flex;
+    align-items: center;
+    margin: 25px 0 25px 0;
+}
+.footer {
+    background-color: black;
+    padding: 5%;
+    height: 60vh
+    
+
+}
+
+.footer img {
+    padding: 0% 0% 5% 0%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.footer h3 {
+    color: white;
+    padding: 0% 0% 5% 0%;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.NandC {
+    display: flex;
+}
+
+.navigate {
+    margin-right: 150px;
+}
+.Follow-us {
+    display: flex;
+   flex-direction: column;
+   position: relative;
+   right: 4rem;
+}
+.Follow-us .links li {
+   display: inline-block ;
+  padding: 0.5rem;
+}
+
+.copyrigth {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.copyrigth p {
+    font-size: 1.5rem;color: white;
+    
+}
+
+.copyrigth p a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
